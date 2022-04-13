@@ -35,8 +35,9 @@ nav {
 .overlay__content a {
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
-    color: #000000;
+    color: #ffffff;
     text-decoration: none;
+    font-size: larger;
 }
 
 .nav__links {
@@ -58,18 +59,19 @@ nav {
 }
 
 .nav__links li a:hover {
-    color: rgb(207, 65, 65);
+    color: rgb(165, 163, 163);
 }
 
 .cta {
     order: 2;
     margin-left: 20px;
     padding: 9px 25px;
-    background-color: rgb(207, 65, 65);
+    background-color: rgb(255, 255, 255);
     border: none;
     border-radius: 50px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
+    color: #24252a;
 }
 
 .cta:hover {
@@ -235,8 +237,8 @@ img {vertical-align: middle;}
   animation-duration: 1.5s;
 }
 
-@keyframes fade {
-  from {opacity: .4} 
+@keyframes blend {
+  from {opacity: .2} 
   to {opacity: 1}
 }
 
