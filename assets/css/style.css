@@ -274,7 +274,7 @@ img {
 }
 
 
-/* Page Contents */
+/* Feeling Hungry Text */
 
 #Box {
     width: 100%;
@@ -290,7 +290,7 @@ img {
     border-color: rgb(40, 39, 39);
     margin-left: -15px;
 }
-
+/* This Is The Responsive For Small Devices For Hungry Text */
 @media only screen and (max-width: 800px) {
 
     #name {
@@ -303,4 +303,17 @@ img {
     #name {
         font-size: 16px
     }
+}
+/* This Is The Responsive For Small Devices For Hungry Text */
+
+
+
+.categories{
+    padding: 4% 0;
+}
+
+.box-3{
+    width: 28%;
+    float: left;
+    margin: 2%;
 }
